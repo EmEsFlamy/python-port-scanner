@@ -1,6 +1,6 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
-![Stage](https://img.shields.io/badge/Stage-3%20of%205-lightgrey)
+![Stage](https://img.shields.io/badge/Stage-3%20of%207-lightgrey)
 
 # Python Port Scanner 🔍
 
@@ -20,9 +20,9 @@ TCP port scanner built in Python as part of CompTIA Network+ preparation and SOC
 - [x] Stage 2 – Port range scan + service names
 - [x] Stage 3 – Error handling + timeout + scan timer
 - [ ] Stage 4 – Multithreading      
-- [ ] Stage 5A – Multi-host scanning from file
-- [ ] Stage 5B – Export results to .txt / .csv
-- [ ] Stage 5C – Banner Grabbing
+- [ ] Stage 5 – Multi-host scanning from file
+- [ ] Stage 6 – Export results to .txt / .csv
+- [ ] Stage 7 – Banner Grabbing
 
 ## Tools & Libraries
 - Python 3.x

@@ -19,9 +19,10 @@ TCP port scanner built in Python as part of CompTIA Network+ preparation and SOC
 - [x] Stage 1 – Basic port scan (single port)
 - [x] Stage 2 – Port range scan + service names
 - [x] Stage 3 – Error handling + timeout + scan timer
-- [ ] Stage 4 – Multi-host scanning from file
-- [ ] Stage 5 – Export results to .txt / .csv
-- [ ] Stage 6 – Banner Grabbing
+- [ ] Stage 4 – Multithreading      
+- [ ] Stage 5A – Multi-host scanning from file
+- [ ] Stage 5B – Export results to .txt / .csv
+- [ ] Stage 5C – Banner Grabbing
 
 ## Tools & Libraries
 - Python 3.x

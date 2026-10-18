@@ -52,5 +52,12 @@ def scan_range(host, start_port, end_port):
     print(f"Scan completed in {elapsed} seconds\n")
 
 
+def scan_from_file(start_port, end_port, filename):
+    with open(filename) as f:
+        for line in f:
+            host = line.strip()
+            scan_range(host, start_port, end_port)
+
+
 # Test
-scan_range("127.0.0.1", 1, 1024)
+scan_from_file(start_port=1, end_port=1024, filename="hosts.txt")
